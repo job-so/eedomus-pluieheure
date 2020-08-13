@@ -2,23 +2,23 @@
 	"plugin_id": "pluieheure",
     "name_fr": "Va-t-il pleuvoir dans l'heure ?",
 	"icon": "pluiedanslheure.png",
-	"version": "1.0",
+	"version": "2.0",
 	"creation_date": "2017-09-10",
-	"modification_date": "2017-09-10",
-	"author": "eedomusbox",
+	"modification_date": "2020-08-13",
+	"author": "eedomusbox, job-so",
 	"description_fr": "Va-t-il pleuvoir dans l'heure ?<br><br>Source des données : <a target='_blank' href='http://www.meteofrance.fr'>Météo France</a>",
-	"description_en": "",
+	"description_en": "Next Hour Rain Forecast",
 	"description_es": "",
 	"description_it": "",
 	"description_de": "",
-  "forum_link": "",
+  "forum_link": "https://github.com/job-so/eedomus-pluieheure/issues",
   "parameters":
   [
 		{
       "parameter": "help_url",
       "description": "",
       "xtype": "displayfield",
-			"field": "style: 'padding: 3px;', value: 'Rendez-vous sur le site <a target=\\'_blank\\' href=\\'http://www.meteo-france.mobi\\'>meteo-france.mobi</a> pour récuperer le code météo france de votre ville : <br><br><a target=\\'_blank\\' href=\\'http://www.meteo-france.mobi\\'><img src=\\'/sdk/plugins/pluieheure/img/pluie_mobi.png\\'></a> <br><br>Effectuez une recherche de la localisation souhaitée,<br>dans le champs de recherche en haut à droite relevez le numéro à droite de <b>ville_synthese</b> diponible dans l\\'URL<br><br>Exemple <i>692720</i> pour Lyon'"
+			"field": "style: 'padding: 3px;', value: 'Indiquez le nom de votre ville, ou son code postal.'"
     },
 		{
       "parameter": "code_ville", 
